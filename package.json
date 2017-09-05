@@ -1,7 +1,7 @@
 {
   "name": "gestaosaudeapp",
   "version": "1.0.0",
-  "description": "GestaoSaudeApp\r ==============",
+  "description": "GestaoSaudeApp",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

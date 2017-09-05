@@ -1,0 +1,24 @@
+{
+  "name": "gestaosaudeapp",
+  "description": "GestaoSaudeApp",
+  "main": "server.js",
+  "authors": [
+    "Rodrigo Martins Silva"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/rodrigmars/GestaoSaudeApp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "toastr": "^2.1.3",
+    "angular": "1.6.6",
+    "angular-route": "1.6.6",
+    "bootstrap": "v4.0.0-alpha.6",
+    "components-font-awesome": "^4.7.0"
+  }
+}
