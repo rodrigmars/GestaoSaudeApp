@@ -1,0 +1,20 @@
+{
+  "name": "gestaosaudeapp",
+  "version": "1.0.0",
+  "description": "GestaoSaudeApp\r ==============",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigmars/GestaoSaudeApp.git"
+  },
+  "author": "Rodrigo Martins Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigmars/GestaoSaudeApp/issues"
+  },
+  "homepage": "https://github.com/rodrigmars/GestaoSaudeApp#readme"
+}
