@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/rodrigmars/GestaoSaudeApp/issues"
   },
-  "homepage": "https://github.com/rodrigmars/GestaoSaudeApp#readme"
+  "homepage": "https://github.com/rodrigmars/GestaoSaudeApp#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.11.10",
+    "morgan": "^1.8.2"
+  }
 }
