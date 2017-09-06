@@ -6,19 +6,30 @@ CRUD Server-Side para cadastro de pacientes.
 GestaoSaudeApp é um desk Server-Side e Client-Side para operações de consulta e cadastro com uso de ODM (Object Data Mapping).
 
 ## Pré-Requisitos
-Instalar depedências:
+* Depedências node:
+```sh
+$ node install
+```
+* Depedências bower:
 ```sh
 $ bower install
+```
+* Script shell mongo para popular collection (pacientes):
+```sh
+$ mongo scriptshellmongo.js
+```
+* CLI para iniciar o server local:
+```sh
+$ nodemon server
+```
+* Retornando uma consulta simples, necessário antes iniciar o server.
+```sh
+http://localhost:3000/api/pacientes 
 ```
 
 ## Observações:
 * Não possui módulo de autenticação
-* Permite uma execução local lançando a cli:
-```sh
-$ node server
-```
-* Para uma execução local é necessário ajustar o PATH que serve ao storage(MongoDB) localizado no arquivo raiz `GestaoSaudeApp/server.js`
-* Caso deseje integrar o Client-Side a qualquer API REST, basta alterar a url localizada no aquivo `GestaoSaudeApp/app/js/config.js`
+* Integra qualquer API RESTful
 
 ## Estrutura:
 ```
