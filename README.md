@@ -38,11 +38,16 @@ GestaoSaudeApp/
 |   |-- index.html
 |   |-- js
 |   |   |-- app.js
+|   |   |-- config.js
 |   |   |-- controllers.js
 |   |   `-- services.js
 |   |-- partials
 |   |   `-- home.html
 |   `-- services
+|-- bower.json
+|-- package.json
+|-- scriptshellmongo.js
+`-- server.js
 ```
 
 ## Bibliotecas:
